@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    z-index: -1;
+}
+
+.yellow-bg{
+    background-color: #FCCB05;
+    height: 100%;
+    width: 60%;
+}
+
+.skin-bg{
+    background-color: #fde9b6;
+    height: 100%;
+    width: 40%;
+}
+
+.logo-img{
+    height: 120px;
+    padding: 20px 80px;
+}
+
+.menu-img{
+    height: 80px;
+    padding: 20px 80px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+}
+
+.content h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.content h1{
+    font-family: "Inter", sans-serif;
+    font-size: 180px;
+}
+
+.content p{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.line{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+}
+
+.bottom span{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+
+.pikachu-img{
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    width: 700px;
+}
+
+.section-dots{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    top: 45%;
+    right: 3%;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fcc60c;
+}
+
+.dot:first-child{
+    height: 12px;
+    width: 12px;
+    background-color: #000000;
+}
+
+.pokiball{
+    opacity: 0.15;
+    filter: brightness(0);
+    position: absolute;
+    bottom: 0%;
+    left: 3%;
+    transform: translate(0%, 30%);
+}
