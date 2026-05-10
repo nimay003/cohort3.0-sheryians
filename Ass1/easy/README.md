@@ -4,7 +4,7 @@ A modern Pokémon-themed landing page inspired by clean and minimal UI designs.
 
 ---
 
-## 🚀 Preview
+## 📸 Design Screenshot
 
 ![Pokemon UI](./preview.png)
 
@@ -43,12 +43,6 @@ easy/
 ├── icons/
 └── preview.png
 ```
-
----
-
-## 📸 Design Screenshot
-
-<img src="./preview.png" width="100%" />
 
 ---
 
