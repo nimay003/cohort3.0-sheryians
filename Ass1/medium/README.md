@@ -4,6 +4,12 @@ A modern Pokémon-themed card interface inspired by clean dashboard and gaming U
 
 ---
 
+## 🔗 Live Link
+
+https://cohort30-sheryians-poki-card.vercel.app/
+
+---
+
 ## 📸 Design Screenshot
 
 ![Pokemon Cards UI](./preview.png)
