@@ -4,6 +4,12 @@ A modern Pokémon-themed landing page inspired by clean and minimal UI designs.
 
 ---
 
+# Live Link
+
+https://cohort30-sheryians-pika-web.vercel.app/
+
+---
+
 ## 📸 Design Screenshot
 
 ![Pokemon UI](./preview.png)
