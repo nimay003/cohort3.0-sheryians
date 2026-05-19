@@ -15,11 +15,7 @@ This project features a cyberpunk-inspired UI with glowing effects, futuristic t
 
 ## 🖥️ Full Website Screenshot
 
-> Add your website screenshot here
-
-```md
 ![Website Preview](./preview.png)
-```
 
 ---
 
@@ -54,8 +50,7 @@ Ass3/hard
 │
 ├── index.html
 ├── style.css
-├── images
-├── icons
+├── img and icons
 └── README.md
 ```
 
