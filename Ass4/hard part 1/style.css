@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 0px 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+  position: relative;
+}
+
+nav .links {
+  display: flex;
+  gap: 50px;
+}
+
+nav .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav .right-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.black-bg-icon {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 18px;
+}
+
+nav::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  height: 2px;
+  width: 100%;
+  background-color: rgba(171, 171, 171, 0.5);
+}
+
+img {
+  width: 100px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 85vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  position: relative;
+}
+
+.hero > div {
+    border-radius: 22px;
+}
+
+.heading {
+  grid-column: 1/6;
+  grid-row: 1/2;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+
+}
+
+.left-img {
+  grid-column: 1/2;
+  grid-row: 4/7;
+  background-image: url(https://images.unsplash.com/photo-1676145754067-18b1e607a69c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxib3l8ZW58MHx8MHx8fDA%3D);
+  background-size:cover;
+  background-position: center;
+  background-position-y: 40%;
+
+}
+
+.left-upper-img {
+  grid-column: 2/3;
+  grid-row: 3/5;
+  background-image: url(https://images.unsplash.com/photo-1581263518256-ba4a28ed5517?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHxib3l8ZW58MHx8MHx8fDA%3D);
+  background-size:cover;
+  background-position: start;
+  background-position-y: 20%;
+}
+
+.left-lower-img {
+  grid-column: 2/3;
+  grid-row: 5/8;
+  background-image: url(https://images.unsplash.com/photo-1554369920-d57b64da38d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE4fHxib3l8ZW58MHx8MHx8fDA%3D);
+  background-size:cover;
+  background-position: center;
+  background-position-y: 80%;
+}
+
+.middle-img {
+  grid-column: 3/4;
+  grid-row: 2/9;
+  background-image: url(https://images.unsplash.com/photo-1616335599168-2ecd8293ae35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxib3l8ZW58MHx8MHx8fDA%3D);
+  background-size:cover;
+  background-position: center;
+  background-position-x: 80%;
+}
+
+.right-upper-img {
+  grid-column: 4/5;
+  grid-row: 3/6;
+  background-image: url(https://plus.unsplash.com/premium_photo-1668943072298-f6e7e774d680?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIzfHxib3l8ZW58MHx8MHx8fDA%3D);
+  background-size:cover;
+  background-position: center;
+  background-position-y: 60%;
+}
+
+.right-lower-img {
+  grid-column: 4/5;
+  grid-row: 6/8;
+  background-image: url(https://images.unsplash.com/photo-1514052010593-e2fe7393521d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxib3l8ZW58MHx8MHx8fDA%3D);
+  background-size:cover;
+  background-position: center;
+  background-position-y: 60%;
+}
+
+.right-img {
+  grid-column: 5/6;
+  grid-row: 4/7;
+  background-image: url(https://plus.unsplash.com/premium_photo-1661893635442-621b2a95be05?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjI5fHxib3l8ZW58MHx8MHx8fDA%3D);
+  background-size:cover;
+  background-position: center;
+  background-position-y: 70%;
+}
+
+.footer {
+  grid-column: 1/6;
+  grid-row: 9/10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p{
+    padding: 18px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+    background-color: rgb(232, 232, 232);
+    font-weight: 600;
+}
+
+.left-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.left-bottom i{
+    font-size: 54px;
+}
+
+.left-bottom p{
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.left-bottom img{
+    width: 200px;
+}
+
+.right-bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 0%;
+    bottom: 3%;
+}
+
+.right-bottom .right-left h4{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.right-bottom .right-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-bottom .right-middle p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right-bottom .right-middle p:first-child{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.middle-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+
+.middle-left p{
+    font-weight: 600;
+}
+
+.middle-left h4{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 40%;
+}
+
+.sunflower{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+
+.sunflower img{
+    width: 60px;
+}
+
+.yellow-flower{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.yellow-flower img{
+    width: 60px;
+}
+
+.dark-flower{
+    position: absolute;
+    top: 10%;
+    right: 00%;
+}
+
+.dark-flower img{
+    width: 60px;
+}
+
+.explore{
+    position: absolute;
+    top: 20%;
+    right: 7%;
+}
+
+.explore img{
+    width: 150px;
+}
+
+.pink-flower{
+    position: absolute;
+    bottom: 3%;
+    left: 27%;
+}
+
+.pink-flower img{
+    width: 60px;
+}
+
+.sad-rose{
+    position: absolute;
+    bottom: 18%;
+    right: 3%;
+}
+
+.sad-rose img{
+    width: 60px;
+}
