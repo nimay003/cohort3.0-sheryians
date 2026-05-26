@@ -163,6 +163,7 @@ section.second-part .cards .card{
 section.second-part .cards .card img{
     width: 100%;
     height: 50%;
+    object-fit: cover;
 }
 
 section.second-part .cards .card .text{
@@ -202,6 +203,7 @@ section.third-part{
 section.third-part img{
     width: 50%;
     height: 100%;
+    object-fit: cover;
 }
 
 section.third-part .third-right{
@@ -331,6 +333,78 @@ section.fourth-part .lower .right a{
     cursor: pointer;
 }
 
+
+section.hero-page nav .menu-link{
+    display: none;
+}
+
 @media (max-width:1024px)  {
+    section.hero-page nav .menu-link{
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    section.hero-page nav .links{
+        display: none;
+    }
+
+    section.hero-page .main-cont h1{
+        font-size: 15vw;
+    }
+    section.hero-page .main-cont h2{
+        font-size: 4vw;
+    }
+
+    section.second-part h1{
+        font-size: 6vw;
+    }
+
+    section.second-part{
+        height: 250vh;
+        padding: 50px 0px;
+        justify-content: flex-start;
+    }
+
+    section.second-part .cards{
+        flex-direction: column;
+        height: 70vh;
+    }
     
+    section.third-part{
+        flex-direction: column;
+        height: 100vh;
+        padding: 50px 0px;
+    }
+
+    section.third-part img{
+    width: 100%;
+    height: 40%;
+}
+
+section.third-part .third-right{
+    width: 100%;
+    height: 60%;
+}
+
+section.third-part .third-right h3{
+    font-size: 6vw;
+}
+
+section.fourth-part .lower
+{
+    flex-direction: column;
+}
+
+section.fourth-part .lower .left{
+    height:10%;
+}
+
+section.fourth-part .lower .right{
+    height:30%;
+    display:flex;
+    flex-direction: column;
+}
+
+
 }
