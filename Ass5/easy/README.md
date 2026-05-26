@@ -43,21 +43,13 @@ This project focuses on modern layout design, responsive sections, cards, typogr
 
 ## Desktop View
 
-_Add your desktop screenshot here_
-
-```md
 ![Desktop Screenshot](./desktop-view.png)
-```
 
 ---
 
 ## Mobile Responsive View
 
-_Add your mobile screenshot here_
-
-```md
 ![Mobile Screenshot](./mobile-view.png)
-```
 
 ---
 
