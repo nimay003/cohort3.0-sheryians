@@ -46,7 +46,7 @@ This project focuses on modern layout design, responsive sections, cards, typogr
 _Add your desktop screenshot here_
 
 ```md
-![Desktop Screenshot](./screenshots/desktop.png)
+![Desktop Screenshot](./desktop-view.png)
 ```
 
 ---
@@ -56,7 +56,7 @@ _Add your desktop screenshot here_
 _Add your mobile screenshot here_
 
 ```md
-![Mobile Screenshot](./screenshots/mobile.png)
+![Mobile Screenshot](./mobile-view.png)
 ```
 
 ---
